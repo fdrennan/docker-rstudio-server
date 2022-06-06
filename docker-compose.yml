@@ -1,13 +1,9 @@
----
 version: '3'
 
 services:
   rstudio-server:
     container_name: rstudio-server
-    build:
-      context: latest
-      dockerfile: Dockerfile
-    image: dceoy/rstudio-server:latest
+    build: .
     ports:
       - 8787:8787
     volumes:

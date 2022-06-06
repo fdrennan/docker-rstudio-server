@@ -31,5 +31,5 @@ $ docker container run --rm -p 8787:8787 -v ${PWD}:/home/rstudio -w /home/rstudi
 Run a server with docker-compose
 
 ```sh
-$ docker-compose -f /path/to/docker-rstudio-server/docker-compose.yml up
+$ docker-compose -f docker-compose.yml up -d
 ```
